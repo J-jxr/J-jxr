@@ -70,7 +70,7 @@
 
 <br></br>
 
-![image](image/头像.png)
+![image](image/居民楼.png)
 
 <!-- 动态打字效果的图片源链接 -->
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=mq白.
