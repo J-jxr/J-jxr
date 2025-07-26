@@ -5,21 +5,21 @@
   <img src="image/头像1.png" alt="头像" width="100" />  <!-- width控制宽度，单位px -->
 </div>
   
-<!-- 个人标签区：兼容版卡片样式 -->
-<div align="center" style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); margin: 2rem auto; max-width: 800px;">
+<div align="center" style="margin: 2rem 0;">
   <!-- 标题 -->
-  <p style="font-weight: bold; margin-bottom: 1rem; color: #333; font-size: 1.2rem;">🌟 About Me</p>
+  <p style="font-weight: bold; margin-bottom: 1.5rem; color: #333; font-size: 1.2rem;">🌟 About Me</p>
   
-  <!-- 标签区域 -->
-  <div style="display: flex; gap: 1.2rem; flex-wrap: wrap; justify-content: center; padding: 0 0.5rem;">
-    <span style="background: #f0f7ff; color: #1e50b3; padding: 0.4rem 1.2rem; border-radius: 20px; font-weight: 500;">Computer science enthusiast 🖥️</span>
-    <span style="background: #fff5f5; color: #c5221f; padding: 0.4rem 1.2rem; border-radius: 20px; font-weight: 500;">cutting-edge knowledge ☕</span>
-    <span style="background: #f6ffed; color: #389e0d; padding: 0.4rem 1.2rem; border-radius: 20px; font-weight: 500;">Full-stack exploration 🚀</span>
-    <span style="background: #fff0f6; color: #a8071a; padding: 0.4rem 1.2rem; border-radius: 20px; font-weight: 500;">fitness & gaming lover 🎮</span>
+  <!-- 标签区域：只保留图标和文字，居中分四行 -->
+  <div style="line-height: 1.8; font-size: 1.1rem;">
+    <div>🖥️ Computer science enthusiast</div>
+    <div style="margin: 0.8rem 0;">☕ cutting-edge knowledge</div>
+    <div style="margin: 0.8rem 0;">🚀 Full-stack exploration</div>
+    <div>🎮 fitness & gaming lover</div>
   </div>
-</div
+</div>
 
- <hr style="border: 0; height: 1px; background: linear-gradient(90deg, transparent, #333, transparent); margin: 2rem 0;" />
+<!-- 分隔线 -->
+  <hr style="border: 0; height: 1px; background: linear-gradient(90deg, transparent, #ddd, transparent); margin: 2rem 0;" />
 
    <!-- 技术栈卡片：用容器包裹，增强模块感 -->
   <div style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 3px 10px rgba(0,0,0,0.05); margin: 2rem 0;">
@@ -60,7 +60,6 @@
   <!-- GitHub 统计卡片 -->
   
 
-<br></br>
 
   <!-- 底部结束语：添加图标点缀，更活泼 -->
   <div align="center" style="margin: 3rem 0 1rem; color: #666; font-size: 1rem; line-height: 1.6;">
@@ -71,9 +70,7 @@
 
 <br></br>
 
-<div align="center">
-  <img src="image/头像.png" alt="头像" width="700" />  <!-- width控制宽度，单位px -->
-</div>
+![image](image/头像.png)
 
 <!-- 动态打字效果的图片源链接 -->
 [github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=mq白.
